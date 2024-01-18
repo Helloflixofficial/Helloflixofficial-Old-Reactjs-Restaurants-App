@@ -1,0 +1,36 @@
+@font-face{
+    font-family: A;
+    src:url(../Fonts/glyph.ttf)
+}
+@font-face{
+    font-family: B;
+    src:url(../Fonts/glyph.woff)
+}
+@font-face{
+    font-family: C;
+    src:url(../Fonts/glyph.woff2)
+}
+@font-face{
+    font-family: D;
+    src:url(../Fonts/lexend.ttf)
+}
+@font-face{
+    font-family: E;
+    src:url(../Fonts/lexend.woff)
+}
+@font-face{
+    font-family: F;
+    src:url(../Fonts/lexend.woff2)
+}
+@font-face{
+    font-family: G;
+    src:url(../Fonts/roboto.ttf)
+}
+@font-face{
+    font-family: H;
+    src:url(../Fonts/roboto.woff)
+}
+@font-face{
+    font-family: I;
+    src:url(../Fonts/roboto.woff2)
+}

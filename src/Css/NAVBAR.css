@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  /* background-color: green; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.A {
+  list-style: none;
+}
+/* /////////////////////////////////////////// */
+.LOGO{
+  grid-column: 2/3;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ANIMIX{
+ position: relative;
+ right: 8rem;
+  width: 20rem;
+  height: 5.1rem;
+}
+.NAVBAR{
+  width: 100%;
+  height: 5rem;
+  background-color: #FBB454;
+  display: grid ;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+}
+
+.MENU{
+  grid-column: 3/4;
+}
+
+.MENU ul{
+
+
+  list-style-type: none;
+ height: 5rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
+
+
+.MENU{
+font-size: 1.6rem;
+}
+
+ .ABC{
+color: rgba(0 , 0, 3, 0.8);
+transition: 0.5s;
+} 
+
+
+.SOCIAL{
+  grid-column: 4/5;
+}
+
+
+  .SOCIAL ul{
+    list-style-type: none;
+ height: 5rem;
+ display: grid; 
+ grid-template-columns: 3fr repeat(3,1fr);
+justify-content: space-around;
+ align-items: center;
+} 
+
+ .SOCIAL ul li {
+  text-align: right;
+  font-size: 2.0rem;
+ 
+}
+
+.SOCIAL ul li:first-child {
+  grid-column: 2/3;
+}
+/* .SOCIAL .BURGER{
+  display: block;
+  font-size: 3.0rem;
+} */
+
+.BURGER{
+  display: none;
+}
+
+/* /////////////////MEDIA SCREEN/////////////////////// */
+@media  ( max-width: 912px){
+.SOCIAL{
+  display: none;
+}
+.MENU{
+ display: none;
+}
+
+.BURGER{
+  display:block;
+  font-size: 2.7rem;
+ 
+  }
+}
